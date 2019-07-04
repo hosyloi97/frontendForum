@@ -1,0 +1,157 @@
+/* START_POST */
+
+.content-main {
+    padding: unset;
+}
+
+.post {
+}
+
+.post .title-post {
+    position: absolute;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    width: 100%;
+    padding: 5px 15px;
+    z-index: 2;
+}
+
+.post .image-post {
+    position: relative;
+    margin-bottom: 6em;
+}
+
+.post .image-post img {
+    width: 100%;
+}
+
+.post .infor-post {
+    position: absolute;
+    bottom: -75px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.post .infor-post .user-post {
+}
+
+.infor-post .user-post img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.infor-post .user-post .name-user-post {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.infor-post .user-post .name-user-post .fa-check-circle {
+    color: #2477c6;
+}
+
+.infor-post .like-post {color: rgb(179, 179, 179);cursor: pointer;}
+
+.infor-post .like-post .fa-heart {
+    font-size: 25px;
+}
+
+.content-post {
+    padding: 10px 15px;
+}
+
+.content-post img {
+    width: 100%;
+}
+
+.content-main .comment {
+    padding: 10px 15px;
+}
+
+/* END_COMMENT */
+
+.content-main .tagBlock {
+    padding: 10px 15px;
+}
+
+.tagBlock ul.tagList {
+    list-style: none;
+    display: inline;
+}
+
+ul.tagList li{
+    display: inline;
+    margin-right: 5px;
+}
+
+ul.tagList li a{}
+
+ul.tagList li a::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 7.5px;
+    display: block;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    border: 1px solid #6cb2e4;
+    background: #FFF;
+}
+
+ul.tagList li a:hover{}
+
+ul.tagList li .tag{
+    font-size: 11px;
+    color: rgb(4, 85, 143);
+    background-color: #f0f7fc;
+    padding-right: 4px;
+    padding-left: 6px;
+    margin-left: 9px;
+    border: 1px solid #6cb2e4;
+    border-left-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    position: relative;
+    display: inline-block;
+    line-height: 20px;
+    height: 20px;
+}
+
+.tagList .arrow{
+    position: absolute;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -9px;
+    top: -2px;
+    border-style: solid;
+    border-width: 11px 9px 11px 0;
+    border-color: transparent;
+    border-right-color: #6cb2e4;
+}
+
+.tagList .arrow::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -7px;
+    top: -10px;
+    border-style: solid;
+    border-width: 10px 8px 10px;
+    border-color: transparent;
+    border-right-color: #f0f7fc;
+}
+
+/* END_POST */
